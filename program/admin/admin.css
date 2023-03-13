@@ -1,0 +1,305 @@
+
+
+.d-block{
+    position: relative;
+    z-index: 1;
+}
+
+#jumbo{
+    position: absolute;
+    z-index: 2;
+    top: 180px;
+    right: 180px;
+    text-align: right;
+}
+
+#jumbo2{
+    position: absolute;
+    z-index: 2;
+    top: 180px;
+    left: 120px;
+}
+
+.h1{
+    font-family: cooper black;
+    text-align: center;
+}
+
+#namapengguna{
+    border-radius: 10px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    outline: none;
+}
+
+.accordion-body a{
+    text-decoration: none;
+    color: black;
+    transition : 0.3s;
+    display: block;
+}
+
+.accordion-body a:hover{
+    font-weight: 700;
+    padding-left: 50px;
+    color: black;
+}
+
+.accordion-body{
+    margin-left: 40px;
+}
+
+#dashboard{
+    margin-top: 150px;
+    padding-left: 100px;
+    margin-bottom: 80px;
+}
+
+#pp-user{
+    width: 150px;
+    height: 150px;
+    margin-left: 40px;
+}
+
+.pp-capt{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+#ganti-pp{
+    font-size: 35px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -20px;
+}
+
+#submenu-dashboard{
+    margin-top: 30px;
+}
+
+#isi-submenu{
+    margin-left: -100px;
+    width: 35rem;
+}
+
+.card .card-body ul li{
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card .card-body ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.card .card-body ul li a:hover{
+    font-weight: 900;
+    padding-left: 20px;
+    transition: 0.2s;
+    display: block;
+}
+
+.card .card-body ul li a i{
+    margin-right: 15px;
+}
+
+.card .card-body .isi ul{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card .card-body .isi ul li{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#judul{
+    margin-left: 40px;
+
+}
+
+#judul i{
+    margin-right: 20px;
+}
+
+.kotak-isian{
+    margin-left: 40px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.info{
+    width: 80%;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.label-info{
+    position: absolute;
+    top: 0;
+    left: 1%;
+    transition: .3s;
+    font-weight: 500;
+}
+
+.d-grid.gap-2{
+    margin-top: 20px;
+}
+
+.form-info{
+    width: 80%;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+}
+.label-form-info{
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    transition: .3s;
+    font-weight: 500;
+    color: grey;
+}
+
+.kotak-isian .form-info:focus ~ .label-form-info, .kotak-isian .form-info:valid ~ .label-form-info{
+    top: -40%;
+}
+
+.label-form-info::after{
+    top: -40%;
+}
+
+#custom-button{
+    padding: 10px;
+    color: white;
+    background-color: #009578;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#custom-button:hover{
+    background-color: #00b28f;
+}
+
+#custom-text{
+    margin-left: 10px;
+    font-family: sans-serif;
+    color: #aaa;
+}
+
+#kotak-foto{
+    width: 18rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border-style: dashed;
+}
+
+#konten-admin{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#konten-dashboard{
+    margin-top: 100px;
+}
+
+#konten-dashboard2{
+    margin-top: 50px;
+    margin-left: -290px;
+    margin-bottom: 100px;
+}
+
+.card .card-body i{
+    position: absolute;
+    font-size: 80px;
+    margin-left: 120px;
+    opacity: 40%;
+    color: white;
+}
+
+#kol-dashboard{
+    margin-left: -600px;
+    margin-bottom: 100px;
+}
+
+#isi-submenu-profil-admin{
+    width: 43rem;
+}
+
+#header-dashboard{
+    margin-top: 100px;
+}
+
+#header-dashboard i{
+    margin-right: 20px;
+}
+
+#ganti-pp-admin{
+    color: black;
+    opacity: 100%;
+    font-size: 35px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -20px;
+}
+
+#pp-admin{
+    width: 130px;
+    height: 130px;
+    margin-left: 20px;
+}
+
+#submenu-profil, #submenu-password{
+    color: black;
+    opacity: 100%;
+    font-size: 20px;
+    margin-left: -30px;
+    margin-right: 10px;
+}
+
+#isi-submenu-info, #isi-submenu-kontak, #isi-submenu-sosmed{
+    color: black;
+    opacity: 100%;
+    font-size: 25px;
+    margin-left: -50px;
+    margin-right: 10px;
+}
+
+/* dashboard admin */
+#profil-admin{
+    margin-left: 300px;
+    background-color: deepskyblue;
+    border: none;
+    color: white;
+    margin-bottom: 50px;
+}
+#pelatihan{
+    background-color: green;
+    border: none;
+    color: white;
+    margin-bottom: 50px;
+}
+#akun{
+    margin-left:-12px;
+    background-color: red;
+    border: none;
+    color: white;
+    margin-bottom: 50px;
+}
+#konten{
+    background-color: grey;
+    border: none;
+    color: white;
+    margin-bottom: 50px;
+}
+/* akhir */
